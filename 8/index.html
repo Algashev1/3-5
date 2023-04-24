@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <title>Тестовая страницы</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="scripts/script.js"></script>
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <form id="my-form" class="form-wrapper">
+            <fieldset>
+                <legend>Муж:</legend>
+                <label for="male-first-name">Имя:</label><br>
+                <input type="text" id="male-first-name" name="male-fname" value="Иван"><br>
+                <label for="last-name">Фамилия:</label><br>
+                <input type="text" id="male-last-name" name="male-lname" value="Иванов"><br>
+            </fieldset>
+
+            <fieldset>
+                <legend>Жена:</legend>
+                <label for="female-first-name">Имя:</label><br>
+                <input type="text" id="female-first-name" name="female-fname" value="Иван"><br>
+                <label for="female-last-name">Фамилия:</label><br>
+                <input type="text" id="female-last-name" name="female-lname" value="Иванов"><br>
+                <br>
+            </fieldset>
+
+            <fieldset>
+                <legend>Datalist:</legend>
+                <label for="first-name">Имя:</label><br>
+                <input list="names" id="first-name" name="fname">
+                <datalist id="names">
+                    <option value="Геннадий">
+                    <option value="Аркадий">
+                    <option value="Светлана">
+                    <option value="Марина">
+                    <option value="Сергей">
+                    <option value="Георгий">
+                    <option value="Гриша">
+                    <option value="Гоша">
+                    <option value="Галина">
+                    <option value="Геннадий">
+                </datalist>
+                <br>
+                <br>
+            </fieldset>
+
+            <fieldset>
+                <legend>Типы:</legend>
+                <input type="week">
+                <!-- color -->
+                <!-- date -->
+                <!-- email -->
+                <!-- file -->
+                <!-- password -->
+                <!-- number -->
+                <!-- range -->
+                <!-- tel -->
+                <!-- time -->
+                <!-- url -->
+                <!-- week -->
+                <br>
+                <br>
+            </fieldset>
+
+            <fieldset>
+                <legend>Ограничения:</legend>
+                <label for="number">Возраст:</label><br>
+                <input type="number" id="number">
+                <!-- readonly -->
+                <!-- disabled -->
+                <!-- value="18" -->
+                <!-- step="5" -->
+                <!-- max="99"" -->
+                <!-- min="0" -->
+                <!-- step="5" -->
+                <!-- step="5" -->
+                <!-- step="5" -->
+                <!-- maxlength="3" для type=text-->
+                <br>
+                <br>
+            </fieldset>
+
+            <br>
+            <input type="submit" value="Отправить">
+        </form>
+    </div>
+</body>
+
+</html>

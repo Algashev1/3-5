@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <title>Тестовая страницы</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="scripts/script.js"></script>
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div>
+            <button type="button" onclick="clickAction1()" class="btn">Я кнопка</button>
+        </div>
+        <div>
+            <button class="btn" onclick="clickAction2()">
+                <img src="images/cat1.jpg" class="icon-btn">
+                Кнопка с рисунком
+            </button>
+        </div>
+
+        <div>
+            <button class="circle-btn" onclick="clickAction3()"></button>
+        </div>
+
+        <div>
+            <button id="disabled-btn" type="button" onclick="clickAction4()" class="btn" disabled>Отключенная
+                кнопка</button>
+        </div>
+
+        <div>
+            <button type="button" onclick="clickAction5()" class="btn">Включить/отключить кнопку</button>
+        </div>
+
+    </div>
+</body>
+
+</html>

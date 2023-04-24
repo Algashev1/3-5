@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <title>Тестовая страницы</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="scripts/script.js"></script>
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <form id="my-form" class="form-wrapper">
+            <!-- <input type="text"> определяет однострочное поле ввода для ввода текста. -->
+            <p><b>type="text"</b> определяет однострочное поле ввода для ввода текста."</p>
+            <label for="first-name">Имя:</label><br>
+            <input type="text" id="first-name" name="fname" value="Иван"><br>
+            <label for="last-name">Фамилия:</label><br>
+            <input type="text" id="last-name" name="lname" value="Иванов"><br>
+
+            <br>
+            <hr>
+            <!-- <input type="radio"> определяет переключатель/радиокнопку. -->
+            <p>Пол:</p>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Мужской</label><br>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Женский</label><br>
+            <input type="radio" id="another" name="gender" value="another">
+            <label for="another">Не определился </label><br>
+
+            <br>
+            <hr>
+            <!-- <input type="checkbox"> определяет флажок/чекбокс. -->
+            <p>Какие языки программирования знаете:</p>
+            <input type="checkbox" id="language1" name="language1" value="java">
+            <label for="language1">Java</label><br>
+            <input type="checkbox" id="language2" name="language2" value="c#">
+            <label for="language2">C#</label><br>
+            <input type="checkbox" id="language3" name="language3" value="javascript">
+            <label for="language3">Javascript</label><br>
+            <input type="checkbox" id="language4" name="language4" value="rust">
+            <label for="language43">Rust</label><br>
+
+            <br>
+            <hr>
+            <!-- Элемент <select> определяет раскрывающийся список. -->
+            <label for="os">Операционная система:</label>
+            <select id="os" name="operation_system" size="4" multiple>
+                <option value="windows">Windows</option>
+                <option value="macos">MacOS</option>
+                <option value="linux">Linux</option>
+                <option value="android">Android</option>
+                <option value="ios">iOS</option>
+                <option value="webos">WebOS</option>
+            </select>
+            <!-- <select id="os" name="operation_system" size="4" multiple></select> -->
+
+            <br>
+            <hr>
+            <!-- Элемент <textarea> определяет многострочное поле ввода (текстовое поле).-->
+            <label for="about">О себе:</label><br>
+            <textarea id="about" name="about_self" rows="10" cols="30">Расскажите о себе</textarea>
+
+            <br>
+            <br>
+            <!-- <input type="submit"> определяет кнопку для отправки данных формы обработчику формы. -->
+            <input type="submit" value="Отправить">
+        </form>
+    </div>
+</body>
+
+</html>

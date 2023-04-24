@@ -1,0 +1,10 @@
+body {
+    margin: 0;
+    background-color: lightskyblue;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+}

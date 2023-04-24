@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <title>Тестовая страницы</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="scripts/script.js"></script>
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="item-wrapper">
+            <p class="title">click</p>
+            <p class="text">
+                Функция выполняется, когда пользователь щелкает элемент HTML
+            </p>
+            <div id="click-block" class="block"></div>
+        </div>
+
+        <div class="item-wrapper">
+            <p class="title">dblclick</p>
+            <p class="text">
+                Функция выполняется, когда пользователь дважды щелкает элемент HTML
+            </p>
+            <div id="dblclick-block" class="block"></div>
+        </div>
+
+        <div class="item-wrapper">
+            <p class="title">mouseenter</p>
+            <p class="text">
+                Функция выполняется, когда указатель мыши входит в элемент HTML
+            </p>
+            <div id="mouseenter-block" class="block"></div>
+        </div>
+
+        <div class="item-wrapper">
+            <p class="title">mouseleave</p>
+            <p class="text">
+                Функция выполняется, когда указатель мыши покидает элемент HTML
+            </p>
+            <div id="mouseleave-block" class="block"></div>
+        </div>
+
+        <div class="item-wrapper">
+            <p class="title">mousedown</p>
+            <p class="text">
+                Функция выполняется, когда нажата левая, средняя или правая кнопка мыши, когда мышь находится над
+                элементом HTML
+            </p>
+            <div id="mousedown-block" class="block"></div>
+        </div>
+
+        <div class="item-wrapper">
+            <p class="title">mouseup</p>
+            <p class="text">
+                Функция выполняется, когда левая, средняя или правая кнопка мыши отпущена, когда мышь находится над
+                элементом HTML
+            </p>
+            <div id="mouseup-block" class="block"></div>
+        </div>
+
+        <div class="item-wrapper">
+            <p class="title">hover</p>
+            <p class="text">
+                Первая функция выполняется, когда мышь входит в HTML элемент, а вторая функция выполняется, когда мышь
+                покидает HTML элемент
+            </p>
+            <div id="hover-block" class="block"></div>
+        </div>
+
+        <div class="item-wrapper">
+            <p class="title">focus</p>
+            <p class="text">
+                Функция выполняется, когда поле формы получает фокус
+            </p>
+            <div id="focus-block" class="block"></div>
+            <input id="focus-text" type="text" />
+        </div>
+
+        <div class="item-wrapper">
+            <p class="title">blur</p>
+            <p class="text">
+                Функция выполняется, когда поле формы теряет фокус
+            </p>
+            <div id="blur-block" class="block"></div>
+            <input id="blur-text" type="text" />
+        </div>
+
+        <div class="item-wrapper">
+            <p class="title">on (focus, blur)</p>
+            <p class="text">
+                Метод on() подключает один или несколько обработчиков событий для выбранных элементов.
+            </p>
+            <div id="on-block" class="block"></div>
+            <input id="on-text" type="text" />
+        </div>
+    </div>
+</body>
+
+</html>
